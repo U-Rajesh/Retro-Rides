@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        background-image: url(Mainpageimage.webp);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+
+    }
+
+    .overall1 {
+        width: 100%;
+        height: 50%;
+        /* background-color: rgb(30, 255, 0); */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 250px;
+
+    }
+
+    .frame1,
+    .frame2 {
+        width: 400px;
+        position: relative;
+        margin: 0 20px;
+    }
+
+    img {
+        width: 400px;
+        border-radius: 20px;
+        position: relative;
+        display: block;
+    }
+
+    .content1 {
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        opacity: 0;
+        position: absolute;
+        background-color: rgba(32, 32, 32, 0.7);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        transition: 0.6s;
+        border-radius: 20px;
+        opacity: 0;
+        color: aliceblue;
+    }
+
+    .frame1:hover .content1,
+    .frame2:hover .content1 {
+        opacity: 1;
+    }
+
+    .overall2 {
+        width: 100%;
+        height: 50%;
+        /* background-color: aqua; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 40px;
+
+    }
+
+    .frame1,
+    .frame2 {
+        width: 400px;
+        position: relative;
+        margin: 0 20px;
+    }
+
+    img {
+        width: 400px;
+        border-radius: 20px;
+        position: relative;
+        display: block;
+    }
+
+    .content2 {
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        opacity: 0;
+        position: absolute;
+        background-color: rgba(32, 32, 32, 0.7);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        transition: 0.6s;
+        border-radius: 20px;
+        opacity: 0;
+        color: aliceblue;
+    }
+
+    .frame1:hover .content2,
+    .frame2:hover .content2 {
+        opacity: 1;
+    }
+
+    .overall3 {
+        width: 100%;
+        height: 50%;
+        /* background-color: aqua; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 40px;
+
+    }
+
+    .frame1,
+    .frame2 {
+        width: 400px;
+        position: relative;
+        margin: 0 20px;
+    }
+
+    img {
+        width: 400px;
+        border-radius: 20px;
+        position: relative;
+        display: block;
+    }
+
+    .content3 {
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        opacity: 0;
+        position: absolute;
+        background-color: rgba(32, 32, 32, 0.7);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        transition: 0.6s;
+        border-radius: 20px;
+        opacity: 0;
+        color: aliceblue;
+        padding-left: 30px;
+    }
+
+    .frame1:hover .content3,
+    .frame2:hover .content3 {
+        opacity: 1;
+    }
+
+    .overall4 {
+        width: 100%;
+        height: 50%;
+        /* background-color: rgb(30, 255, 0); */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 40px;
+
+    }
+
+    .frame1,
+    .frame2 {
+        width: 400px;
+        position: relative;
+        margin: 0 20px;
+    }
+
+    img {
+        width: 400px;
+        border-radius: 20px;
+        position: relative;
+        display: block;
+    }
+
+    .content4 {
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        opacity: 0;
+        position: absolute;
+        background-color: rgba(32, 32, 32, 0.7);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        transition: 0.6s;
+        border-radius: 20px;
+        opacity: 0;
+        color: aliceblue;
+        /* padding-left: 10px; */
+
+    }
+
+    .frame1:hover .content4,
+    .frame2:hover .content4 {
+        opacity: 1;
+    }
+
+    .overall5 {
+        width: 100%;
+        height: 50%;
+        /* background-color: aqua; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 40px;
+        margin-bottom: 50px;
+
+
+    }
+
+    .frame1,
+    .frame2 {
+        width: 400px;
+        position: relative;
+        margin: 0 20px;
+    }
+
+    img {
+        width: 400px;
+        border-radius: 20px;
+        position: relative;
+        display: block;
+    }
+
+    .content5 {
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        opacity: 0;
+        position: absolute;
+        background-color: rgba(32, 32, 32, 0.7);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        transition: 0.6s;
+        border-radius: 20px;
+        opacity: 0;
+        color: aliceblue;
+        padding-left: 10px;
+
+    }
+
+    .frame1:hover .content5,
+    .frame2:hover .content5 {
+        opacity: 1;
+    }
+
+    .mainhead {
+        /* background-color: aliceblue; */
+        width: 60%;
+        height: 250px;
+        justify-content: center;
+        align-items: top;
+        align-content: center;
+        /* display: flex; */
+        margin: 50px auto;
+
+    }
+
+    h1 {
+        color: blanchedalmond;
+        font-weight: bolder;
+        font-size: 40px;
+    }
+
+    h2 {
+        color: aliceblue;
+    }
+
+    h3 {
+        color: beige;
+    }
+
+    p {
+        color: rgb(214, 213, 211);
+        font-size: 18px;
+    }
+
+    h4 {
+        color: azure;
+    }
+</style>
+
+<body>
+    <div class="mainhead">
+        <h1>Here are the top models; what are you looking for?</h2>
+            <h2>Vintage Legends Of The Road: The Best Classic Cars For Collectors</h2>
+            <h3>Beauty never fades.</h3>
+            <p>Any fan of vintage cars will say that nothing beats the sound of the engine and the smell of the leather
+                when you get close to one of your favorite old cars. And that rush you feel when you see a beautifully
+                restored, hard-to-find model? It’s the best!</p>
+            <h4>By Rajesh</h4>
+    </div>
+    <div class="overall1">
+        <a href="car1.html">
+            <div class="frame1">
+                <div class="image1">
+                    <img src="car1image.webp" alt="Image">
+                    <div class="content1">
+                        <h1>Aston Martin DB5 1964</h1>
+                        <p>Brand:
+                            Aston Martin</p>
+                    </div>
+                </div>
+            </div>
+        </a>
+        <a href="car2.html">
+            <div class="frame2">
+                <div class="image2">
+                    <img src="car2image.webp" alt="Image">
+                    <div class="content1">
+                        <h1>Ferrari 250 GTO 1962</h1>
+                        <p>Brand:
+                            Ferrari</p>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </div>
+    <div class="overall2">
+        <a href="car3.html">
+            <div class="frame1">
+                <div class="image1">
+                    <img src="car3image.webp" alt="Image">
+                    <div class="content2">
+                        <h1>Jaguar E-Type 1961</h1>
+                        <p>Brand:
+                            Jaguar</p>
+                    </div>
+                </div>
+            </div>
+        </a>
+        <a href="car4.html">
+            <div class="frame2">
+                <div class="image2">
+                    <img src="car4image.webp" alt="Image">
+                    <div class="content2">
+                        <h1>Porsche 911 1963</h1>
+                        <p>Brand:
+                            Porsche</p>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </div>
+    <div class="overall3">
+        <a href="car5.html">
+            <div class="frame1">
+                <div class="image1">
+                    <img src="car5image.webp" alt="Image">
+                    <div class="content3">
+                        <h1>Chevrolet El Camino SS 1970</h1>
+                        <p>Brand:
+                            Chevrolet</p>
+                    </div>
+                </div>
+        </a>
+    </div>
+    <a href="car6.html">
+        <div class="frame2">
+            <div class="image2">
+                <img src="car6image.webp" alt="Image">
+                <div class="content3">
+                    <h1>Oldsmobile Starfire Convertible 1962</h1>
+                    <p>Brand:
+                        Oldsmobile</p>
+                </div>
+            </div>
+    </a>
+    </div>
+
+    </div>
+    <div class="overall4">
+        <a href="car7.html">
+            <div class="frame1">
+                <div class="image1">
+                    <img src="car7image.webp" alt="Image">
+                    <div class="content4">
+                        <h1>British Motor Corporation Mini 1959
+                        </h1>
+                        <p>Brand:
+                            British Motor Corporation</p>
+                    </div>
+                </div>
+        </a>
+    </div>
+    <a href="car8.html">
+        <div class="frame2">
+            <div class="image2">
+                <img src="car8image.webp" alt="Image">
+                <div class="content4">
+                    <h1>Ford Mustang Shelby GT350 1965</h1>
+                    <p>Brand:
+                        Ford</p>
+                </div>
+            </div>
+    </a>
+    </div>
+    </div>
+    <div class="overall5">
+        <a href="car9.html">
+            <div class="frame1">
+                <div class="image1">
+                    <img src="car9image.webp" alt="Image">
+                    <div class="content5">
+                        <h1>Mercedes 300SL Gullwing 1954</h1>
+                        <p>Brand:
+                            Mercedes-Benz</p>
+                    </div>
+                </div>
+        </a>
+    </div>
+    <a href="car10.html">
+        <div class="frame2">
+            <div class="image2">
+                <img src="car10image.webp" alt="Image">
+                <div class="content5">
+                    <h1>Chevrolet Corvette 1963</h1>
+                    <p>Brand:
+                        Chevrolet</p>
+                </div>
+            </div>
+    </a>
+    </div>
+    </div>
+</body>
+
+</html>

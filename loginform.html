@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<style>
+    body {
+        background-image: url("Loginimg.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+
+
+    }
+
+    .div1 {
+        border: solid orange;
+        background: transparent;
+        border-radius: 20px;
+        overflow: hidden;
+        width: 260px;
+        margin-top: 30px;
+
+    }
+
+
+
+    .form {
+        margin: 15px;
+        width: 100%;
+
+    }
+
+    input {
+        width: 200px;
+        height: 20px;
+        font-size: 15px;
+        text-align: left;
+        align-items: center;
+        text-indent: 2px;
+        background: transparent;
+        color: aliceblue;
+
+
+
+    }
+
+
+    .form label {
+
+        font-size: 25px;
+        color: bisque;
+
+    }
+
+    .form button {
+        width: 70px;
+        height: 30px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-left: 70px;
+        margin-top: 5px;
+        border-top: none;
+        border-bottom: none;
+        border-left: none;
+        border-right: none;
+        background-color: rgb(225, 105, 40);
+        font-size: 15px;
+        border-radius: 10px;
+        cursor: pointer;
+        color: black;
+
+    }
+
+    .form button:hover {
+        background-color: rgb(243, 238, 238);
+    }
+
+    .form label {
+        color: bisque;
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+
+    }
+
+    .over {
+        display: flex;
+        justify-content: space-between;
+        /* background-color: aliceblue;   */
+        padding: 40px;
+        height: 50vh;
+
+    }
+
+    .dec {
+        margin-top: 21px;
+        color: orange;
+        font-size: 40px;
+        display: flex;
+        /* background-color: aqua; */
+        width: 20%;
+    }
+</style>
+
+<body>
+    <div class="over">
+        <div class="dec">
+            <h1>Log In to Journey</h1>
+        </div>
+        <div class="div1">
+            <form action="" class="form">
+                <label for="Gmail" class="gm1">Gmail</label><br>
+                <input type="Gmail" class="gm2" placeholder="Enter your mail"><br><br><br>
+                <label for="Password" class="pass1">Password</label><br>
+                <input type="password" class="pass2" placeholder="Password"><br><br><br>
+                <button class="log"><a href="mainpage.html">Login</a></button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
